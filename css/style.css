@@ -125,7 +125,7 @@
 
 /* header */
 header{
-    background-color: white;
+    background-color: #3161e0;
 }
 
 header>section {
@@ -146,9 +146,28 @@ header>section {
     width: 30%;
     justify-content: flex-end;
 }
+
+.button1{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border-color: none;
+    border: 0px;
+}
 /* end-header */
 
 /* main */
+/* section 1 */
+#section1 {
+    height: 500px;
+    background-image: url(../img/jumbo.png);
+}
+
+#square-s1 {
+    height: 80%;
+    width: 50%;
+}
+/* /section 1 */
+
 /* section 2 */
 .flex-section{
     display: flex;
