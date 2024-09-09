@@ -117,6 +117,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .general-flex {
@@ -146,16 +147,19 @@ header>section {
 #head1{
     width: 30%;
     align-content: flex-end;
+    justify-content: space-around;
 }
 
 #head2{
     width: 40%;
-    justify-content: space-between;
+    padding-top: 20px;
+    align-content: flex-end;
+    justify-content: space-around;
 }
 
 #head3{
     width: 30%;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
 
 .button1{
@@ -169,7 +173,7 @@ header>section {
 /* main */
 /* section 1 */
 #section1 {
-    height: 550px;
+    height: 610px;
     background-image: url(../img/jumbo.png);
     background-size:cover;
 }
@@ -317,6 +321,18 @@ header>section {
     padding-right: 50px;
     margin-left: 50px;
 }
+
+.button3{
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border-color: none;
+    border: 0px;
+    background-color: #7a83be;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: block;
+}
 /* end-section 5 */
 
 /* section 6 */
@@ -325,10 +341,56 @@ header>section {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.section6{
+    height: 630px;
+    padding-top: 1rem;
+    background-color: #23272a;
+}
+
+.square1-s6{
+    height: 94%;
+    width: 22%;
+    padding: 1rem;
+    padding-right: 8rem;
+}
+
+#italian {
+    width: 30px;
+}
+
+#last-title{
+    color: #7a83be;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.endcredit {
+    color: white;
+    line-height: 40px;
+}
+
+.last-titles2 {
+    color: #7a83be;
+    font-weight: bold;
+    line-height: 40px
+}
+
+.square2-s6{
+    height: 94%;
+    width: 12%;
+    padding-top: 1rem;
+    padding-right: 9rem;
+}
 /* end-section 6 */
 /* end-main */
 
 /* footer */
+hr{
+    border-color: #7a83be;
+    border-width: 2px;
+}
+
 .flex-footer{
     display: flex;
     flex-wrap: wrap;
@@ -339,12 +401,34 @@ header>section {
 #foot1{
     width: 10%;
     justify-content: center;
-    background-color: #ffb6c1;
 }
 
 #foot2{
     width: 10%;
     justify-content: center;
-    background-color: #ffb6c1;
+}
+
+#footer{
+    height: 111px;
+    background-color: #23272a;
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+#foot-container{
+    height: 80%;
+    width: 70%;
+    align-content: center;
+}
+
+.button4{
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border-color: none;
+    border: 0px;
+    background-color: #7a83be;
 }
 /* end-footer */
