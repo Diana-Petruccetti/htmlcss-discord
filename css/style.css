@@ -179,11 +179,17 @@ header>section {
 #title1 {
     font-size: 3rem;
     color: white;
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
 #paragraph1 {
-    font-size: 25px;
+    font-size: 20px;
     color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    line-height: 30px;
 }
 
 .button2 {
@@ -197,7 +203,9 @@ header>section {
 
 #buttons-square {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 1rem;
+    width: 50%;
 }
 /* /section 1 */
 
