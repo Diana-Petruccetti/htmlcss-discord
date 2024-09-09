@@ -111,7 +111,17 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
+.general-flex {
+    display: flex;
+}
 /* end-layout */
+
+/* utility */
+.text-color1 {
+    color: white;
+}
+/* end-utility */
 
 /* header */
 header{
@@ -123,16 +133,17 @@ header>section {
 }
 
 #head1{
-    width: 20%;
+    width: 30%;
+    align-content: center;
 }
 
 #head2{
-    width: 60%;
-    justify-content: center;
+    width: 40%;
+    justify-content: space-between;
 }
 
 #head3{
-    width: 20%;
+    width: 30%;
     justify-content: flex-end;
 }
 /* end-header */
