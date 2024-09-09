@@ -260,10 +260,18 @@ header>section {
 
 #wave {
     width: 100%;
-    opacity: 0.1;
+    opacity: 0.03;
     background-color: white;
 }
 /* end-section 2 */
+
+/* section 3 */
+#section3{
+    height: 600px;
+    background-color: #f6f6f6;
+    flex-direction: row-reverse;
+}
+/* end-section 3 */
 
 /* section 6 */
 .flex-section6{
