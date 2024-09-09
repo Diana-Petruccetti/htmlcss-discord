@@ -16,6 +16,7 @@
     border: 1px dashed;
 }
 
+/* debug header */
 .debug header {
     background-color: #add8e6;
     height: 80px;
@@ -25,6 +26,7 @@
     background-color: #daa520;
 }
 
+/* debug section1 */
 .debug #section1{
     height: 500px;
     background-color: #00008b;
@@ -36,6 +38,7 @@
     width: 50%;
 }
 
+/* debug section2 */
 .debug .section2and4{
     height: 600px;
     background-color: #ffffff;
@@ -53,12 +56,14 @@
     width: 30%;
 }
 
+/* debug section3 */
 .debug #section3{
     height: 600px;
     background-color: #d3d3d3;
     flex-direction: row-reverse;
 }
 
+/* debug section5 */
 .debug #section5{
     height: 995px;
     background-color: #d3d3d3;
@@ -70,6 +75,7 @@
     width: 70%;
 }
 
+/* debug section6 */
 .debug .section6{
     height: 630px;
     background-color: #23272a;
@@ -88,6 +94,7 @@
     width: 12%;
 }
 
+/* debug footer */
 .debug #footer{
     height: 111px;
     background-color: #23272a;
@@ -138,7 +145,7 @@ header>section {
 
 #head1{
     width: 30%;
-    align-content: center;
+    align-content: flex-end;
 }
 
 #head2{
@@ -176,14 +183,14 @@ header>section {
     flex-wrap: wrap;
 }
 
-#title1 {
+.title-size {
     font-size: 3rem;
     color: white;
     margin-bottom: 2rem;
     text-align: center;
 }
 
-#paragraph1 {
+.paragraph-size {
     font-size: 20px;
     color: white;
     margin-top: 1rem;
@@ -215,6 +222,46 @@ header>section {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+}
+
+.section2and4 {
+    height: 600px;
+    background-color: #ffffff;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.square1-s2 {
+    height: 80%;
+    width: 40%;
+}
+
+.square2-s2 {
+    height: 80%;
+    width: 30%;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
+
+.title-size2 {
+    font-size: 3rem;
+    color: #23272a;
+    margin-bottom: 2rem;
+}
+
+.paragraph-size2 {
+    font-size: 20px;
+    color: #23272a;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 30px;
+}
+
+#wave {
+    width: 100%;
+    opacity: 0.1;
+    background-color: white;
 }
 /* end-section 2 */
 
