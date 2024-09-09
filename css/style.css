@@ -136,7 +136,7 @@ body {
 
 /* header */
 header{
-    background-color: #3161e0;
+    background-color: #255ee9;
 }
 
 header>section {
@@ -262,6 +262,7 @@ header>section {
     width: 100%;
     opacity: 0.03;
     background-color: white;
+    transform:scale(105%);
 }
 /* end-section 2 */
 
@@ -270,6 +271,13 @@ header>section {
     height: 600px;
     background-color: #f6f6f6;
     flex-direction: row-reverse;
+}
+
+#wave2 {
+    width: 100%;
+    opacity: 0.03;
+    background-color: white;
+    transform: rotate(180deg);
 }
 /* end-section 3 */
 
